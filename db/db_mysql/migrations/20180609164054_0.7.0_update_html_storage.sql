@@ -1,0 +1,8 @@
+
+
+ALTER TABLE `templates` MODIFY html MEDIUMTEXT;
+ALTER TABLE `pages` MODIFY html MEDIUMTEXT;
+
+
+ALTER TABLE `templates` MODIFY html TEXT;
+ALTER TABLE `pages` MODIFY html TEXT;
